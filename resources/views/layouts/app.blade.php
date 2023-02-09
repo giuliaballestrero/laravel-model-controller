@@ -19,15 +19,15 @@
 
 <body>
 
-    <header>
+    <header class="bg-dark">
         @include('partials.header')
     </header>
 
-    <main>
+    <main class="bg-dark">
         @yield('main-content')
     </main>
 
-    <footer>
+    <footer class="bg-dark">
         @include('partials.footer')
     </footer>
 
